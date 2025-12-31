@@ -1,3 +1,8 @@
+# Editors
+.idea/
+.vscode/
+*.code-workspace
+
 # Python
 __pycache__/
 *.pyc

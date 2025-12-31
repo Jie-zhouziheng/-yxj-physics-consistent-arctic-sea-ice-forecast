@@ -80,8 +80,16 @@
 ### 1️⃣ 安装依赖环境
 
 ```bash
+conda env create -f environment.yml
+conda activate seaice_tgrs
+
+（可选）：
 pip install -r requirements.txt
 ```
+
+environment.yml：保证数据处理可用（xarray/netcdf4 稳定）
+
+requirements.txt：补充可选包（比如训练相关）
 
 ---
 

@@ -1,0 +1,6 @@
+model,input_window,lead_time,mask,epochs,batch_size,lr,embed_channels,hidden_channels,lam_tv,lam_time,best_val_rmse,test_mae,test_rmse,ckpt_path
+phase3_season_aware_phys,12,1,ice15,5,2,0.001,8,16,0,0,0.078607,0.042774,0.077250,experiments/sweeps_phase3/p3_tv0_time0_run01.pt
+phase3_season_aware_phys,12,1,ice15,5,2,0.001,8,16,0,0.0005,0.068071,0.039387,0.067388,experiments/sweeps_phase3/p3_tv0_time0.0005_run02.pt
+phase3_season_aware_phys,12,1,ice15,5,2,0.001,8,16,0,0.001,0.074648,0.044612,0.074736,experiments/sweeps_phase3/p3_tv0_time0.001_run03.pt
+phase3_season_aware_phys,12,1,ice15,5,2,0.001,8,16,0.001,0,0.073039,0.040243,0.071926,experiments/sweeps_phase3/p3_tv0.001_time0_run04.pt
+phase3_season_aware_phys,12,1,ice15,5,2,0.001,8,16,0.001,0.0005,0.078867,0.048840,0.078094,experiments/sweeps_phase3/p3_tv0.001_time0.0005_run05.pt

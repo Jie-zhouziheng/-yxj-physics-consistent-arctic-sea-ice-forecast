@@ -1,0 +1,7 @@
+baseline,split,input_window,lead_time,mask,mae,rmse
+persistence,test,12,1,,0.044780,0.123946
+climatology,test,12,1,,0.037973,0.105821
+persistence,test,12,1,ice15,0.030395,0.102231
+climatology,test,12,1,ice15,0.025671,0.087116
+convlstm_phase1,test,12,1,ice15,0.027480,0.071282
+phase2_season_aware,test,12,1,ice15,0.040976,0.072310

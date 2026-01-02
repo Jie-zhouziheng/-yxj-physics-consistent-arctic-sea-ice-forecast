@@ -1,0 +1,5 @@
+model,split,input_window,lead_time,mask,mae,rmse
+convlstm_phase1,test,12,1,ice15,0.027480,0.071282
+phase2_season_aware,test,12,1,ice15,0.040976,0.072310
+phase3_season_aware_phys,test,12,1,ice15,0.042523,0.082230
+phase3_season_aware_phys,test,12,1,ice15,0.035297,0.069195

@@ -1,0 +1,8 @@
+# configs/phase2_season_aware.yaml
+inherits: base.yaml
+
+model:
+  name: phase2_season_aware
+  embed_channels: 8
+  hidden_channels: 16
+  kernel_size: 3

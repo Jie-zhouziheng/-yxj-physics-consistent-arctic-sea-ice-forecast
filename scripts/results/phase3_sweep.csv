@@ -4,3 +4,7 @@ phase3_season_aware_phys,12,1,ice15,5,2,0.001,8,16,0,0.0005,0.068071,0.039387,0.
 phase3_season_aware_phys,12,1,ice15,5,2,0.001,8,16,0,0.001,0.074648,0.044612,0.074736,experiments/sweeps_phase3/p3_tv0_time0.001_run03.pt
 phase3_season_aware_phys,12,1,ice15,5,2,0.001,8,16,0.001,0,0.073039,0.040243,0.071926,experiments/sweeps_phase3/p3_tv0.001_time0_run04.pt
 phase3_season_aware_phys,12,1,ice15,5,2,0.001,8,16,0.001,0.0005,0.078867,0.048840,0.078094,experiments/sweeps_phase3/p3_tv0.001_time0.0005_run05.pt
+phase3_season_aware_phys,12,1,ice15,5,2,0.001,8,16,0.001,0.001,0.076558,0.044628,0.075920,experiments/sweeps_phase3/p3_tv0.001_time0.001_run06.pt
+phase3_season_aware_phys,12,1,ice15,5,2,0.001,8,16,0.005,0,0.070287,0.038236,0.070017,experiments/sweeps_phase3/p3_tv0.005_time0_run07.pt
+phase3_season_aware_phys,12,1,ice15,5,2,0.001,8,16,0.005,0.0005,0.066852,0.036181,0.065561,experiments/sweeps_phase3/p3_tv0.005_time0.0005_run08.pt
+phase3_season_aware_phys,12,1,ice15,5,2,0.001,8,16,0.005,0.001,0.069974,0.038827,0.069238,experiments/sweeps_phase3/p3_tv0.005_time0.001_run09.pt

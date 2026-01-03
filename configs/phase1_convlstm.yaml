@@ -1,0 +1,7 @@
+# configs/phase1_convlstm.yaml
+inherits: base.yaml
+
+model:
+  name: convlstm_phase1
+  hidden_channels: 16
+  kernel_size: 3

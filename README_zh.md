@@ -69,10 +69,11 @@
 ```text
 ├── configs/        # 实验与模型配置文件
 ├── data/           # 数据集（原始数据 / 处理后数据）
-├── experiments/    # 实验输出（日志、指标、模型权重）
+├── experiments/    # 模型权重与实验中间产物（ckpt 等）
 ├── figures/        # 自动生成的图像与可视化结果
 ├── notebooks/      # 端到端可复现的分析流程（下载 → 预处理 → 训练 → 评估）
-├── scripts/        # 一次性或入口脚本（如数据下载、训练入口）
+├── results/        # 实验指标输出（CSV：overall / monthly / sweep）
+├── scripts/        # 训练与评估入口脚本
 ├── src/            # 工程化核心代码（dataset / model / loss / train 等）
 └── README.md
 ```
@@ -138,6 +139,9 @@ python -m src.train --config experiments/configs/base.yaml
 
 * **空间分布对比分析**
     重点关注海冰边缘区域及典型月份的预测结构合理性
+
+* **Monthly & Spring (3–6) Aggregated Metrics**
+    按月份与春季窗口统计 MAE/RMSE，用于分析春季可预报性屏障（SPB）
 
 ---
 

@@ -1,0 +1,23 @@
+# configs/base.yaml
+
+seed: 0
+device: auto   # auto | cpu | cuda
+
+data:
+  data_dir: data/raw/nsidc_sic
+  hemisphere: N
+  input_window: 12
+  lead_time: 1
+
+  mask_name: ice15
+  mask_path: data/eval/ice_mask_ice15.npy
+
+train:
+  epochs: 5
+  batch_size: 2
+  lr: 1e-3
+  num_workers: 0
+
+io:
+  experiments_dir: experiments
+  results_dir: scripts/results

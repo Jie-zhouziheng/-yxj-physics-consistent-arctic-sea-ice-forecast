@@ -1,0 +1,2 @@
+model,split,input_window,lead_time,mask,seed,mae,rmse
+convlstm_phase1,test,12,3,ice15,1,0.041593,0.091266
